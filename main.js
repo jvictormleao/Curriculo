@@ -2,7 +2,6 @@
 const pt = document.querySelector(".curriculo-area-pt")
 const eng = document.querySelector(".curriculo-area-eng")
 
-
 function setLanguage(){
     checkbox = document.getElementById('language')
     if (checkbox.checked){

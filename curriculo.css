@@ -57,6 +57,54 @@ body {
     place-items: center;
 }
 
+#menu{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-item {
+    height: 24rem;
+    width: 20rem;
+    box-shadow: 0.2rem 0.2rem 1rem 0.025rem rgba(0, 0, 0, 0.2);
+}
+
+.menu-item .preview {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item .preview img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.menu-item-preview-hovered {
+    position: fixed;
+    width: 36rem;
+    height: 32rem;
+    z-index: 100;
+    margin: auto;
+}
+.menu-item-title-hovered {
+    position: fixed;
+    width: 36rem;
+    height: 4rem;
+    z-index: 98;
+    margin: auto;
+}
 
 #curriculo {
     padding-top: 2rem;
