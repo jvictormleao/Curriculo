@@ -40,6 +40,12 @@ textarea {
 
 }
 
+
+span .voltar p {
+    color: black;
+    font-size: 10rem;
+}
+
 textarea:focus {
     outline: none;
 }
@@ -55,6 +61,19 @@ body {
     height: 100%;
     display: grid;
     place-items: center;
+}
+
+a.voltar {
+    position: fixed;
+    z-index: 105;
+    width: 100%;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 #menu{
@@ -76,8 +95,8 @@ body {
 }
 
 .menu-item {
-    height: 24rem;
-    width: 20rem;
+    height: 30rem;
+    width: 26rem;
     box-shadow: 0.2rem 0.2rem 1rem 0.025rem rgba(0, 0, 0, 0.2);
 }
 
@@ -87,23 +106,19 @@ body {
 }
 
 .menu-item .preview img {
-    width: 20rem;
-    height: 20rem;
+    width: 26rem;
+    height: 26rem;
 }
 
-.menu-item-preview-hovered {
-    position: fixed;
-    width: 36rem;
-    height: 32rem;
-    z-index: 100;
-    margin: auto;
+.menu-item .title {
+    padding: 1rem;
 }
-.menu-item-title-hovered {
-    position: fixed;
-    width: 36rem;
-    height: 4rem;
-    z-index: 98;
-    margin: auto;
+
+.menu-item .title h1 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 #curriculo {
